@@ -93,7 +93,6 @@ export class BookListComponent implements OnInit {
       ...book, 
       register: book.register ? this.formatDateForInput(new Date(book.register)) : ''
     };
-    console.log('Data selecionada:', this.selectedBook.register);
     /*
     Quando um livro é selecionado para edição, este método copia o livro selecionado para selectedBook, formatando a data de registro (register) para exibição em um campo de entrada.
     */
